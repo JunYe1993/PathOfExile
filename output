@@ -1,0 +1,49 @@
+https://web.poe.garena.tw/trade/search/?q={
+    "query": {
+        "status": {
+            "option": "any"
+        },
+        "name": "致命的驕傲",
+        "type": "永恆珠寶",
+        "stats": [
+            {
+                "type": "count",
+                "filters": [
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_kaom",
+                        "disabled": false,
+                        "value": {
+                            "min": "13981",
+                            "max": "13981"
+                        }
+                    },
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_kaom",
+                        "disabled": false,
+                        "value": {
+                            "min": "16491",
+                            "max": "16491"
+                        }
+                    }
+                ],
+                "disabled": false,
+                "value": {
+                    "min": 1
+                }
+            }
+        ],
+        "filters": {
+            "trade_filters": {
+                "filters": {
+                    "sale_type": {
+                        "option": "any"
+                    }
+                },
+                "disabled": false
+            }
+        }
+    },
+    "sort": {
+        "price": "asc"
+    }
+}

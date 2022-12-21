@@ -1,0 +1,19 @@
+{
+    "query":{
+        "status":{"option":"any"},
+        "name":"",
+        "type":"",
+        "stats":[{
+            "type":"count",
+            "filters":[],
+            "disabled":false,
+            "value":{"min":1}}],
+        "filters":{
+            "trade_filters":{
+                "filters":{"sale_type":{"option":"any"}},
+                "disabled":false
+            }
+        }
+    },
+    "sort":{"price":"asc"}
+}
