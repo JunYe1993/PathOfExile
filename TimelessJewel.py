@@ -21,17 +21,17 @@ def get_query_json(query_json):
     query_json["name"] = Jewels_Name[0]
     query_json["type"] = Jewels_Type[0]
 
-    for i in range(0, len(args.numbers)):
-
-        general = "kaom"
-        jewel_filter = dict()
-        jewel_filter["id"] = "%s%s" % (General_option_str, general)
-        jewel_filter["disabled"] = False
-        jewel_filter["value"] = {
-            "min": args.numbers[i],
-            "max": args.numbers[i]
-        }
-        query_json["stats"][0]["filters"].append(jewel_filter)
+    for general_index in range(0, len(Generals["致命的驕傲"])):
+        for numbers_index in range(0, len(args.numbers)):
+            general = Generals["致命的驕傲"][general_index]
+            jewel_filter = dict()
+            jewel_filter["id"] = "%s%s" % (General_option_str, general)
+            jewel_filter["disabled"] = False
+            jewel_filter["value"] = {
+                "min": args.numbers[numbers_index],
+                "max": args.numbers[numbers_index]
+            }
+            query_json["stats"][0]["filters"].append(jewel_filter)
 
     return query_json
 

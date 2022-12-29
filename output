@@ -13,16 +13,96 @@ https://web.poe.garena.tw/trade/search/?q={
                         "id": "explicit.pseudo_timeless_jewel_kaom",
                         "disabled": false,
                         "value": {
-                            "min": "13981",
-                            "max": "13981"
+                            "min": "12460",
+                            "max": "12460"
                         }
                     },
                     {
                         "id": "explicit.pseudo_timeless_jewel_kaom",
                         "disabled": false,
                         "value": {
-                            "min": "16491",
-                            "max": "16491"
+                            "min": "14174",
+                            "max": "14174"
+                        }
+                    },
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_kaom",
+                        "disabled": false,
+                        "value": {
+                            "min": "13297",
+                            "max": "13297"
+                        }
+                    },
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_kaom",
+                        "disabled": false,
+                        "value": {
+                            "min": "17438",
+                            "max": "17438"
+                        }
+                    },
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_rakiata",
+                        "disabled": false,
+                        "value": {
+                            "min": "12460",
+                            "max": "12460"
+                        }
+                    },
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_rakiata",
+                        "disabled": false,
+                        "value": {
+                            "min": "14174",
+                            "max": "14174"
+                        }
+                    },
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_rakiata",
+                        "disabled": false,
+                        "value": {
+                            "min": "13297",
+                            "max": "13297"
+                        }
+                    },
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_rakiata",
+                        "disabled": false,
+                        "value": {
+                            "min": "17438",
+                            "max": "17438"
+                        }
+                    },
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_akoya",
+                        "disabled": false,
+                        "value": {
+                            "min": "12460",
+                            "max": "12460"
+                        }
+                    },
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_akoya",
+                        "disabled": false,
+                        "value": {
+                            "min": "14174",
+                            "max": "14174"
+                        }
+                    },
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_akoya",
+                        "disabled": false,
+                        "value": {
+                            "min": "13297",
+                            "max": "13297"
+                        }
+                    },
+                    {
+                        "id": "explicit.pseudo_timeless_jewel_akoya",
+                        "disabled": false,
+                        "value": {
+                            "min": "17438",
+                            "max": "17438"
                         }
                     }
                 ],
